@@ -1,0 +1,43 @@
+{
+  "name": "github-user-email-cli",
+  "version": "0.0.0",
+  "description": "Get a GitHub users email",
+  "license": "MIT",
+  "repository": "kevva/github-user-email-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "github-user-email": "bin.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "email",
+    "github",
+    "user"
+  ],
+  "dependencies": {
+    "github-user-email": "^2.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
