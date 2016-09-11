@@ -8,3 +8,7 @@ test('show help screen', async t => {
 test('show version', async t => {
 	t.is(await execa.stdout('./cli.js', ['--version']), require('./package').version);
 });
+
+test('get email', async t => {
+	t.is(await execa.stdout('./cli.js', ['kevva']), 'kevinmartensson@gmail.com');
+});
