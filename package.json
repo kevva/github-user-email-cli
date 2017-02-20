@@ -10,7 +10,7 @@
     "url": "github.com/kevva"
   },
   "bin": {
-    "github-user-email": "bin.js"
+    "github-user-email": "cli.js"
   },
   "engines": {
     "node": ">=4"
